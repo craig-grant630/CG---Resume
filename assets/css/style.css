@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* --------------------------- Colours*/
+.bg-color-name-title{
+    background-color: rgba(0,0,0,0.9);
+    
+}
+/* --------------------------- Header*/
+header{
+    margin:0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo{
+    background: url("../images/resume.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:360px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.name{
+font-family: "Exo", sans-serif;
+font-weight: 100;
+font-size:46px;
+margin-top:50px;
+color:#fff;
+}
+
+.title{
+    font-family:"roboto",sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    color:#f89412;
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
