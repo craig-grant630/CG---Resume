@@ -10,12 +10,12 @@
 /* ------------------------------------------------------------ Colours*/
 .bg-color-name-title{
     background: linear-gradient(to right, #414040, #000);
-    border-bottom: 2px solid rgb(248, 148, 18);
+    border-bottom: 0.5px solid rgb(248, 148, 18);
     
 }
 
 .ui-menu-color{
-    background: #000;
+    background: linear-gradient(to bottom, #414040, #000);
 }
 
 /* ------------------------------------------------------------ Header*/
@@ -67,4 +67,36 @@ color:#fff;
 #nav li{
     font-size: 14px;
     padding:0;
+    border-right: 1px solid #414040;
+}
+
+.menuitem {
+    height:120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color:white;
+    height:120px;
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    display:block;
+    color:#fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width:100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
