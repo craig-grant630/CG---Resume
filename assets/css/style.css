@@ -9,13 +9,13 @@
 
 /* ------------------------------------------------------------ Colours*/
 .bg-color-name-title{
-    background: linear-gradient(to right, #414040, #000);
+    background: linear-gradient(to right, #636262, #313131);
     border-bottom: 0.5px solid rgb(248, 148, 18);
     
 }
 
 .ui-menu-color{
-    background: linear-gradient(to bottom, #414040, #000);
+    background: linear-gradient(to bottom, #838282, #3a3a3a);
 }
 
 /* ------------------------------------------------------------ Header*/
@@ -64,6 +64,10 @@ color:#fff;
     font-size:0;
 }
 
+#nav {
+    margin:0;
+}
+
 #nav li{
     font-size: 14px;
     padding:0;
@@ -99,4 +103,11 @@ color:#fff;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/* ------------------------------------------------------------ Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
 }
